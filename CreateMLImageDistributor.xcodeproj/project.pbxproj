@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E7764E672CD6234E00CAA14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7764E4D2CD6234C00CAA14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7764E542CD6234C00CAA14F;
+			remoteInfo = CreateMLImageDistributor;
+		};
+		E7764E712CD6234E00CAA14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7764E4D2CD6234C00CAA14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7764E542CD6234C00CAA14F;
+			remoteInfo = CreateMLImageDistributor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7764E552CD6234C00CAA14F /* CreateMLImageDistributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateMLImageDistributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7764E662CD6234E00CAA14F /* CreateMLImageDistributorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateMLImageDistributorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7764E702CD6234E00CAA14F /* CreateMLImageDistributorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateMLImageDistributorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E7764E572CD6234C00CAA14F /* CreateMLImageDistributor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CreateMLImageDistributor;
+			sourceTree = "<group>";
+		};
+		E7764E692CD6234E00CAA14F /* CreateMLImageDistributorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CreateMLImageDistributorTests;
+			sourceTree = "<group>";
+		};
+		E7764E732CD6234E00CAA14F /* CreateMLImageDistributorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CreateMLImageDistributorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7764E522CD6234C00CAA14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7764E632CD6234E00CAA14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7764E6D2CD6234E00CAA14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7764E4C2CD6234C00CAA14F = {
+			isa = PBXGroup;
+			children = (
+				E7764E572CD6234C00CAA14F /* CreateMLImageDistributor */,
+				E7764E692CD6234E00CAA14F /* CreateMLImageDistributorTests */,
+				E7764E732CD6234E00CAA14F /* CreateMLImageDistributorUITests */,
+				E7764E562CD6234C00CAA14F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7764E562CD6234C00CAA14F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7764E552CD6234C00CAA14F /* CreateMLImageDistributor.app */,
+				E7764E662CD6234E00CAA14F /* CreateMLImageDistributorTests.xctest */,
+				E7764E702CD6234E00CAA14F /* CreateMLImageDistributorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7764E542CD6234C00CAA14F /* CreateMLImageDistributor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7764E7A2CD6234E00CAA14F /* Build configuration list for PBXNativeTarget "CreateMLImageDistributor" */;
+			buildPhases = (
+				E7764E512CD6234C00CAA14F /* Sources */,
+				E7764E522CD6234C00CAA14F /* Frameworks */,
+				E7764E532CD6234C00CAA14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E7764E572CD6234C00CAA14F /* CreateMLImageDistributor */,
+			);
+			name = CreateMLImageDistributor;
+			packageProductDependencies = (
+			);
+			productName = CreateMLImageDistributor;
+			productReference = E7764E552CD6234C00CAA14F /* CreateMLImageDistributor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7764E652CD6234E00CAA14F /* CreateMLImageDistributorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7764E7D2CD6234E00CAA14F /* Build configuration list for PBXNativeTarget "CreateMLImageDistributorTests" */;
+			buildPhases = (
+				E7764E622CD6234E00CAA14F /* Sources */,
+				E7764E632CD6234E00CAA14F /* Frameworks */,
+				E7764E642CD6234E00CAA14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7764E682CD6234E00CAA14F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E7764E692CD6234E00CAA14F /* CreateMLImageDistributorTests */,
+			);
+			name = CreateMLImageDistributorTests;
+			packageProductDependencies = (
+			);
+			productName = CreateMLImageDistributorTests;
+			productReference = E7764E662CD6234E00CAA14F /* CreateMLImageDistributorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7764E6F2CD6234E00CAA14F /* CreateMLImageDistributorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7764E802CD6234E00CAA14F /* Build configuration list for PBXNativeTarget "CreateMLImageDistributorUITests" */;
+			buildPhases = (
+				E7764E6C2CD6234E00CAA14F /* Sources */,
+				E7764E6D2CD6234E00CAA14F /* Frameworks */,
+				E7764E6E2CD6234E00CAA14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7764E722CD6234E00CAA14F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E7764E732CD6234E00CAA14F /* CreateMLImageDistributorUITests */,
+			);
+			name = CreateMLImageDistributorUITests;
+			packageProductDependencies = (
+			);
+			productName = CreateMLImageDistributorUITests;
+			productReference = E7764E702CD6234E00CAA14F /* CreateMLImageDistributorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7764E4D2CD6234C00CAA14F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					E7764E542CD6234C00CAA14F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					E7764E652CD6234E00CAA14F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E7764E542CD6234C00CAA14F;
+					};
+					E7764E6F2CD6234E00CAA14F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = E7764E542CD6234C00CAA14F;
+					};
+				};
+			};
+			buildConfigurationList = E7764E502CD6234C00CAA14F /* Build configuration list for PBXProject "CreateMLImageDistributor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7764E4C2CD6234C00CAA14F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E7764E562CD6234C00CAA14F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7764E542CD6234C00CAA14F /* CreateMLImageDistributor */,
+				E7764E652CD6234E00CAA14F /* CreateMLImageDistributorTests */,
+				E7764E6F2CD6234E00CAA14F /* CreateMLImageDistributorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7764E532CD6234C00CAA14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7764E642CD6234E00CAA14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7764E6E2CD6234E00CAA14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7764E512CD6234C00CAA14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7764E622CD6234E00CAA14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7764E6C2CD6234E00CAA14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7764E682CD6234E00CAA14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7764E542CD6234C00CAA14F /* CreateMLImageDistributor */;
+			targetProxy = E7764E672CD6234E00CAA14F /* PBXContainerItemProxy */;
+		};
+		E7764E722CD6234E00CAA14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7764E542CD6234C00CAA14F /* CreateMLImageDistributor */;
+			targetProxy = E7764E712CD6234E00CAA14F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7764E782CD6234E00CAA14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7764E792CD6234E00CAA14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E7764E7B2CD6234E00CAA14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CreateMLImageDistributor/CreateMLImageDistributor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CreateMLImageDistributor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanrick.CreateMLImageDistributor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E7764E7C2CD6234E00CAA14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CreateMLImageDistributor/CreateMLImageDistributor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CreateMLImageDistributor/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanrick.CreateMLImageDistributor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E7764E7E2CD6234E00CAA14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanrick.CreateMLImageDistributorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreateMLImageDistributor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CreateMLImageDistributor";
+			};
+			name = Debug;
+		};
+		E7764E7F2CD6234E00CAA14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanrick.CreateMLImageDistributorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CreateMLImageDistributor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CreateMLImageDistributor";
+			};
+			name = Release;
+		};
+		E7764E812CD6234E00CAA14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanrick.CreateMLImageDistributorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CreateMLImageDistributor;
+			};
+			name = Debug;
+		};
+		E7764E822CD6234E00CAA14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanrick.CreateMLImageDistributorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CreateMLImageDistributor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7764E502CD6234C00CAA14F /* Build configuration list for PBXProject "CreateMLImageDistributor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7764E782CD6234E00CAA14F /* Debug */,
+				E7764E792CD6234E00CAA14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7764E7A2CD6234E00CAA14F /* Build configuration list for PBXNativeTarget "CreateMLImageDistributor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7764E7B2CD6234E00CAA14F /* Debug */,
+				E7764E7C2CD6234E00CAA14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7764E7D2CD6234E00CAA14F /* Build configuration list for PBXNativeTarget "CreateMLImageDistributorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7764E7E2CD6234E00CAA14F /* Debug */,
+				E7764E7F2CD6234E00CAA14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7764E802CD6234E00CAA14F /* Build configuration list for PBXNativeTarget "CreateMLImageDistributorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7764E812CD6234E00CAA14F /* Debug */,
+				E7764E822CD6234E00CAA14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7764E4D2CD6234C00CAA14F /* Project object */;
+}
