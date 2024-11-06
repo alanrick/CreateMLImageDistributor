@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+// MARK: - This view is not used because it causes the @Observation framework to crash when the programm is run
+// several times with different spreadsheets, each having different columns. As a temporary measure CategoryListView
+// is used instead.
 struct CategoryTableView: View {
     
     @Environment(AppEnvironment.self) private var appEnvironment
@@ -92,7 +95,7 @@ func columnColour(_ purpose: ColumnPurpose) -> Color {
         }
     }
 
-
+// MARK: - This view is used instead of CategoryListVew to avoid the @Observation framework crashing
 struct CategoryListView: View {
     
     @Environment(AppEnvironment.self) private var appEnvironment
