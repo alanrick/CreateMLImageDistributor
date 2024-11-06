@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E79BA8D52CDB9E7700626D86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E79BA8D42CDB9E7700626D86 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		E7764E672CD6234E00CAA14F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,7 +31,26 @@
 		E7764E552CD6234C00CAA14F /* CreateMLImageDistributor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateMLImageDistributor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7764E662CD6234E00CAA14F /* CreateMLImageDistributorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateMLImageDistributorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7764E702CD6234E00CAA14F /* CreateMLImageDistributorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateMLImageDistributorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79BA8D42CDB9E7700626D86 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E7217C8A2CD983ED00800359 /* Exceptions for "CreateMLImageDistributorUITests" folder in "CreateMLImageDistributorTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TestMedia.xcassets,
+			);
+			target = E7764E652CD6234E00CAA14F /* CreateMLImageDistributorTests */;
+		};
+		E7217C8B2CD983ED00800359 /* Exceptions for "CreateMLImageDistributorUITests" folder in "CreateMLImageDistributorUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TestGoodRun.swift,
+				TestMedia.xcassets,
+			);
+			target = E7764E6F2CD6234E00CAA14F /* CreateMLImageDistributorUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E7764E572CD6234C00CAA14F /* CreateMLImageDistributor */ = {
@@ -42,6 +65,10 @@
 		};
 		E7764E732CD6234E00CAA14F /* CreateMLImageDistributorUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E7217C8A2CD983ED00800359 /* Exceptions for "CreateMLImageDistributorUITests" folder in "CreateMLImageDistributorTests" target */,
+				E7217C8B2CD983ED00800359 /* Exceptions for "CreateMLImageDistributorUITests" folder in "CreateMLImageDistributorUITests" target */,
+			);
 			path = CreateMLImageDistributorUITests;
 			sourceTree = "<group>";
 		};
@@ -75,6 +102,7 @@
 		E7764E4C2CD6234C00CAA14F = {
 			isa = PBXGroup;
 			children = (
+				E79BA8D42CDB9E7700626D86 /* README.md */,
 				E7764E572CD6234C00CAA14F /* CreateMLImageDistributor */,
 				E7764E692CD6234E00CAA14F /* CreateMLImageDistributorTests */,
 				E7764E732CD6234E00CAA14F /* CreateMLImageDistributorUITests */,
@@ -212,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E79BA8D52CDB9E7700626D86 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,19 +425,21 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CreateMLImageDistributor/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app needs access to Downloads to create directories";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "This app needs access to Downloads to create directories";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alanrick.CreateMLImageDistributor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -417,23 +448,27 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = CreateMLImageDistributor/CreateMLImageDistributor.entitlements;
+				CODE_SIGN_ENTITLEMENTS = CreateMLImageDistributor/CreateMLImageDistributorRelease.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CreateMLImageDistributor/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "This app needs access to Downloads to create directories";
+				INFOPLIST_KEY_NSDownloadsFolderUsageDescription = "This app needs access to Downloads to create directories";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alanrick.CreateMLImageDistributor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};

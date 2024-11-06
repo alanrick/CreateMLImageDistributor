@@ -2,7 +2,7 @@
 //  CreateMLImageDistributorUITestsLaunchTests.swift
 //  CreateMLImageDistributorUITests
 //
-//  Created by Alan Rickayzen on 02.11.24.
+//  Created by Alanrick on 02.11.24.
 //
 
 import XCTest
