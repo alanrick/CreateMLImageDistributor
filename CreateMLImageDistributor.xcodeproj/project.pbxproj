@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E79BA8D52CDB9E7700626D86 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E79BA8D42CDB9E7700626D86 /* README.md */; };
+		E79BA8D72CDBA87D00626D86 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = E79BA8D62CDBA87D00626D86 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		E7764E662CD6234E00CAA14F /* CreateMLImageDistributorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateMLImageDistributorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7764E702CD6234E00CAA14F /* CreateMLImageDistributorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreateMLImageDistributorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79BA8D42CDB9E7700626D86 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E79BA8D62CDBA87D00626D86 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -102,6 +104,7 @@
 		E7764E4C2CD6234C00CAA14F = {
 			isa = PBXGroup;
 			children = (
+				E79BA8D62CDBA87D00626D86 /* Localizable.xcstrings */,
 				E79BA8D42CDB9E7700626D86 /* README.md */,
 				E7764E572CD6234C00CAA14F /* CreateMLImageDistributor */,
 				E7764E692CD6234E00CAA14F /* CreateMLImageDistributorTests */,
@@ -241,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E79BA8D52CDB9E7700626D86 /* README.md in Resources */,
+				E79BA8D72CDBA87D00626D86 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +361,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -413,6 +418,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};

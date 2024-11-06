@@ -1,0 +1,104 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "(CSV)" : {
+
+    },
+    "(Images)" : {
+
+    },
+    "(Target directory)" : {
+
+    },
+    "(Target)" : {
+
+    },
+    "%@" : {
+
+    },
+    "%@ %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%lld images were distributed in %lld folders" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld images were distributed in %2$lld folders"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+
+    },
+    "Category" : {
+
+    },
+    "Category name" : {
+
+    },
+    "Column Name" : {
+
+    },
+    "Creating Directories " : {
+
+    },
+    "CSV Column name" : {
+
+    },
+    "Deleting Directory" : {
+
+    },
+    "Distributing Files" : {
+
+    },
+    "Error" : {
+
+    },
+    "Example data" : {
+
+    },
+    "First Value" : {
+
+    },
+    "Images distributed: %lld" : {
+
+    },
+    "Max images in each folder" : {
+
+    },
+    "OK" : {
+
+    },
+    "Purpose" : {
+
+    },
+    "Select directory to copy images from" : {
+
+    },
+    "Select Downloads Folder" : {
+
+    },
+    "Select spreadsheet of images" : {
+
+    },
+    "Select target directory to copy images into" : {
+
+    },
+    "Specifying" : {
+
+    }
+  },
+  "version" : "1.0"
+}
